@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Lugrasimo&display=swap');
+@tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+
+ 
+ .custom-font {
+  font-family: "Angkor", serif;
+  font-style: normal;
+}
+ .font-2{
+  font-family: "Lugrasimo", cursive;
+  font-style: normal;
+ }
+ .bg-carousel1{
+  background-image: url('../../public/assets/pictures/crousel1.jpg');
+ }
+ 
+ .bg-carousel2{
+  background-image: url('../../public/assets/pictures/crousel2.jpg');
+ }
+ 
+ .bg-carousel3{
+  background-image: url('../../public/assets/pictures/crousel3.jpeg');
+ }
+ 
+ .bg-carousel4{
+  background-image: url('../../public/assets/pictures/rent.jpeg');
+ }
+ 
+ .bg-carousel5{
+  background-image: url('../../public/assets/pictures/int1.jpeg');
+ }
